@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "mapviewer"
+version = "0.1.0"
+description = ""
+authors = ["reo03ARMS <reo03masu@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+osmnx = "^1.2.2"
+ipykernel = "^6.19.2"
+folium = "^0.13.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
